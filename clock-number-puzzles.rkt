@@ -133,3 +133,34 @@ clock-numbers-algebra
 ;; Alondra's
 
 (puzzle-card (rule '(add (sub 9 (S 3))(P 8))'?))
+
+;Alexandra's cards
+
+(puzzle-card (rule '(add
+                     (sub 5 2)
+                      (add 1 5))
+                   '?))
+
+(puzzle-card (rule '(add
+                     (add
+                      (sub 6
+                           (add 3 2))
+                      (add 2 1))
+                     (sub 2 1))
+                   '?))
+
+(puzzle-card (rule '(sub 5
+                     (add 2 6))
+                   '?))
+
+(puzzle-card (rule '(S
+                     (add
+                      (sub 5 3)
+                      (sub 2 1)))
+                     '?))
+
+(puzzle-card (rule '(add
+                     (sub 5
+                          (P 4))
+                          (add 3 2))
+                   '?))
